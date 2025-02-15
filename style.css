@@ -1,0 +1,54 @@
+body{
+	font-family: Arial;
+	text-align: center;
+	
+}
+.title{
+	background-color: #ADD8E6;
+	text-align: center;
+	padding: 30px;
+	color: black;
+}
+.narbar{
+	display: flex;
+	color: ;
+	background-color: #008B8B;
+}	
+.narbar a{
+	padding: 8px;
+	background-color: #008B8B;
+	text-decoration: none;
+}
+.narbar a:hover{
+	background-color: #7FFFD4;
+	color: #191970;
+}
+.leftside{
+	flex: 20%;
+	background-color: #FFFFE0;
+	padding:15px;
+	display: flex;
+	text-align: left;
+
+
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.rightside{
+	text-align: right;
+	flex:80%; 
+	background-color: #87CEFA;
+	padding:20px;
+}
+
+
+*{
+	box-sizing: border-box;
+}
+.footer{
+	background-color: #20B2;
+	text-decoration: none;
+
+}
